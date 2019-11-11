@@ -12,20 +12,28 @@
 
 
 #So what is the Smile-catch tool ?
-Smile-Catch is a tool developed by using python3 programming language to scan the LAN or PAN network . Using IP range scanner to catch any all the users by pinging thier devices one by one.
+Smile-Catch is a tool developed by using python3 programming language to scan the LAN or PAN network . Using IP range scanner to catch any all the users by pinging their devices one by one.
 
 
 
 #What is the meaning of the name ? 
-Smile-Catch meaning when you are trying to investigating with someone guilty till you bring him you bring him down and has no way to lying then unawared will start smiling as like PSYCHOLOGISTS saying .
+Smile-Catch means whem you catch someone guilty with his guilt after investigation and he smiles back to you .
 
 
 
 #Requirements !
-1 - Unix system(kali linux,ubunto,redhat ....)
-2 - wifi adapter 
-3 - python3 
+1 - any unix system(kali linux,ubunto,redhat ....) .
+2 - wifi adapter . 
+3 - python3 .
+4 - The ip of the ROUTER .
 
+
+
+#Installation !
+$ apt-get install python3 && apt-get update python3 
+$ git clone https://github.com/thearrival/Smile-catch.git
+$ cd Smile-Catch
+$ python3 Smile-Catch.py --help
 
 
 #how it's work ?
@@ -41,14 +49,14 @@ $--stdin      # To gran list of ip addresses from stdin
 $--help       # to get this screen 
 
 
-Some examples of usage :
+#Some examples of usage :
 
 Smile-Catch  -f 100 -t 254 -i 192.168.1.* # scan range from 192.168.1.100 to 192.168.1.254
  Smile-Catch .py -l examples/example-ip-list # scan ip adresses from file
  cat examples/example-ip-list | scan-network -s # scan from stdin
  echo "192.168.1.100,192.168.1.101,192.168.1.102,192.168.1.103,192.168.1.104,192.168.1.107,192.168.1.108" | Smile-Catch  -s # scan from stdin
 
-home/ismail/project/Smile-Catch# ./Smile-Catch.py --from=100 --to=110 --ip 192.168.1
+#home/ismail/project/Smile-Catch# ./Smile-Catch.py --from=100 --to=110 --ip 192.168.1
 Adresses to scan: 10
 Ping 192.168.1.{100 to 110}
 Delay: 1
@@ -63,4 +71,3 @@ Delay: 1
 192.168.1.108 NO Smile back :( , offline
 192.168.1.109 NO Smile back :( , offline
 192.168.1.110 NO Smile back :( , offline
-

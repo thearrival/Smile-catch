@@ -21,6 +21,10 @@ Smile-Catch means whem you catch someone guilty with his guilt after investigati
 
 
 
+#You may ask what is distinguish your tool and other tools ?
+My tool is faster to detect the devices around because doesn't use any form of script or any kind of administrator privilegs which make 
+it faster to run and covering larg space because of the wifi adapter . 
+
 #Requirements !
 1 - any unix system(kali linux,ubunto,redhat ....) .
 2 - wifi adapter . 
@@ -56,7 +60,7 @@ Smile-Catch  -f 100 -t 254 -i 192.168.1.* # scan range from 192.168.1.100 to 192
  cat examples/example-ip-list | scan-network -s # scan from stdin
  echo "192.168.1.100,192.168.1.101,192.168.1.102,192.168.1.103,192.168.1.104,192.168.1.107,192.168.1.108" | Smile-Catch  -s # scan from stdin
 
-#home/ismail/project/Smile-Catch# ./Smile-Catch.py --from=100 --to=110 --ip 192.168.1
+#home/Ismail/project/Smile-Catch# ./Smile-Catch.py --from=100 --to=110 --ip 192.168.1
 Adresses to scan: 10
 Ping 192.168.1.{100 to 110}
 Delay: 1

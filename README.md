@@ -17,7 +17,7 @@ Smile-Catch is a tool developed by using python3 programming language to scan th
 
 
 #What is the meaning of the name ? 
-Smile-Catch means whem you catch someone guilty with his guilt after investigation and he smiles back to you .
+Smile-Catch means when you catch someone guilty with his guilt after investigation and he smiles back to you .
 
 
 
